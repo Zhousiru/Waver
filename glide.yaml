@@ -1,0 +1,6 @@
+package: github.com/Zhousiru/Waver
+import:
+- package: github.com/gin-gonic/gin
+  version: v1.2
+- package: github.com/gin-contrib/sse
+- package: github.com/buger/jsonparser
