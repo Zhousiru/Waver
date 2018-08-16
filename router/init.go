@@ -23,5 +23,6 @@ func Init(r *gin.Engine) {
 
 		root.Any("/login/phone/:phone/*type", loginByPhone)
 		root.Any("/song/:songId/file/:br/*type", getSongFile)
+		root.Any("/song/:songId/detail/*type", getSongDetail)
 	}
 }

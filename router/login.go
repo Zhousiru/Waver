@@ -41,8 +41,6 @@ func loginByPhone(c *gin.Context) {
 		return
 	}
 
-	println(string(jsonData))
-
 	if c.Param("type") == "/raw" {
 		tool.ReturnRawJSON(c, jsonData)
 	} else {
